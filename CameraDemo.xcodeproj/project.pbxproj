@@ -11,6 +11,7 @@
 		F637522628BB6228003B47D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637522528BB6228003B47D4 /* ContentView.swift */; };
 		F637522828BB6229003B47D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F637522728BB6229003B47D4 /* Assets.xcassets */; };
 		F637522B28BB6229003B47D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F637522A28BB6229003B47D4 /* Preview Assets.xcassets */; };
+		F637523228BB6ADB003B47D4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637523128BB6ADB003B47D4 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F637522528BB6228003B47D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F637522728BB6229003B47D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F637522A28BB6229003B47D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F637523128BB6ADB003B47D4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F637523328BB76D2003B47D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		F637522228BB6228003B47D4 /* CameraDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F637523328BB76D2003B47D4 /* Info.plist */,
 				F637522328BB6228003B47D4 /* CameraDemoApp.swift */,
 				F637522528BB6228003B47D4 /* ContentView.swift */,
+				F637523128BB6ADB003B47D4 /* ImagePicker.swift */,
 				F637522728BB6229003B47D4 /* Assets.xcassets */,
 				F637522928BB6229003B47D4 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F637523228BB6ADB003B47D4 /* ImagePicker.swift in Sources */,
 				F637522628BB6228003B47D4 /* ContentView.swift in Sources */,
 				F637522428BB6228003B47D4 /* CameraDemoApp.swift in Sources */,
 			);
@@ -267,8 +273,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CameraDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = B8R5NH4L98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +303,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CameraDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = B8R5NH4L98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

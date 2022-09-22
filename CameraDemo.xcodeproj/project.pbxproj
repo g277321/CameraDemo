@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62053B228DBB00200E0F250 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62053B128DBB00200E0F250 /* Models.swift */; };
 		F637522428BB6228003B47D4 /* CameraDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637522328BB6228003B47D4 /* CameraDemoApp.swift */; };
 		F637522628BB6228003B47D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637522528BB6228003B47D4 /* ContentView.swift */; };
 		F637522828BB6229003B47D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F637522728BB6229003B47D4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F62053B128DBB00200E0F250 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F637522028BB6228003B47D4 /* CameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F637522328BB6228003B47D4 /* CameraDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDemoApp.swift; sourceTree = "<group>"; };
 		F637522528BB6228003B47D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				F637522328BB6228003B47D4 /* CameraDemoApp.swift */,
 				F637522528BB6228003B47D4 /* ContentView.swift */,
 				F637523128BB6ADB003B47D4 /* ImagePicker.swift */,
+				F62053B128DBB00200E0F250 /* Models.swift */,
 				F637522728BB6229003B47D4 /* Assets.xcassets */,
 				F637522928BB6229003B47D4 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 				F637523228BB6ADB003B47D4 /* ImagePicker.swift in Sources */,
 				F637522628BB6228003B47D4 /* ContentView.swift in Sources */,
 				F637522428BB6228003B47D4 /* CameraDemoApp.swift in Sources */,
+				F62053B228DBB00200E0F250 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
